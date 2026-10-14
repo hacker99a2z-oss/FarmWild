@@ -1,0 +1,39 @@
+services:
+  - type: web
+    name: farm-city
+    env: node
+    plan: free
+    rootDir: farm-fresh-upgrade-main
+    buildCommand: npm install && npm run build
+    startCommand: node .output/server/index.mjs
+    envVars:
+      - key: NODE_VERSION
+        value: 20
+      - key: MONGODB_URI
+        sync: false
+      - key: MONGODB_DB
+        sync: false
+      - key: TELEGRAM_BOT_TOKEN
+        sync: false
+      - key: TELEGRAM_WEBHOOK_SECRET
+        sync: false
+      - key: TON_WALLET_MNEMONIC
+        sync: false
+      - key: TON_WALLET_VERSION
+        sync: false
+      - key: TONCENTER_API_KEY
+        sync: false
+      - key: PAYOUT_CRON_SECRET
+        sync: false
+      - key: WEBAPP_URL
+        sync: false
+      - key: CHANNEL_URL
+        sync: false
+      - key: PAYMENTS_PROOF_URL
+        sync: false
+      - key: CONTACT_SUPPORT_URL
+        sync: false
+      - key: SUPPORT_URL
+        sync: false
+      - key: INTRO_VIDEO
+        sync: false
