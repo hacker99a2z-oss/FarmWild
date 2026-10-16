@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <radialGradient id="pumpkinBag" cx="40%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#FB923C" />
+      <stop offset="100%" stop-color="#C2410C" />
+    </radialGradient>
+  </defs>
+  <path d="M32 10 C18 10 14 26 16 48 C17 56 47 56 48 48 C50 26 46 10 32 10 Z" fill="url(#pumpkinBag)" stroke="#7C2D12" stroke-width="2" />
+  <ellipse cx="32" cy="14" rx="14" ry="4" fill="#FFEDD5" stroke="#7C2D12" stroke-width="1.5" />
+  <circle cx="32" cy="34" r="10" fill="#EA580C" stroke="#7C2D12" stroke-width="1.5" />
+  <path d="M32 23 L32 27" stroke="#15803D" stroke-width="2" />
+  <ellipse cx="32" cy="34" rx="4" ry="10" fill="#F97316" stroke="#7C2D12" stroke-width="1" />
+</svg>

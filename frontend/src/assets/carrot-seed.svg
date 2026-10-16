@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <radialGradient id="carrotBag" cx="40%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#FB923C" />
+      <stop offset="100%" stop-color="#EA580C" />
+    </radialGradient>
+  </defs>
+  <path d="M32 10 C18 10 14 26 16 48 C17 56 47 56 48 48 C50 26 46 10 32 10 Z" fill="url(#carrotBag)" stroke="#9A3412" stroke-width="2" />
+  <ellipse cx="32" cy="14" rx="14" ry="4" fill="#FED7AA" stroke="#9A3412" stroke-width="1.5" />
+  <path d="M32 23 L35 38 L29 38 Z" fill="#F97316" stroke="#7C2D12" stroke-width="1" />
+  <path d="M30 20 Q32 17 33 22" stroke="#16A34A" stroke-width="2" fill="none" />
+</svg>

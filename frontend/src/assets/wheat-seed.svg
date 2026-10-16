@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <radialGradient id="wheatBag" cx="40%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#FCD34D" />
+      <stop offset="100%" stop-color="#D97706" />
+    </radialGradient>
+  </defs>
+  <path d="M32 10 C18 10 14 26 16 48 C17 56 47 56 48 48 C50 26 46 10 32 10 Z" fill="url(#wheatBag)" stroke="#92400E" stroke-width="2" />
+  <ellipse cx="32" cy="14" rx="14" ry="4" fill="#FDE68A" stroke="#92400E" stroke-width="1.5" />
+  <path d="M32 24 Q38 32 32 40" stroke="#78350F" stroke-width="2" fill="none" stroke-linecap="round" />
+  <circle cx="28" cy="28" r="3" fill="#FEF3C7" stroke="#92400E" stroke-width="1" />
+  <circle cx="36" cy="34" r="3" fill="#FEF3C7" stroke="#92400E" stroke-width="1" />
+  <circle cx="29" cy="40" r="3" fill="#FEF3C7" stroke="#92400E" stroke-width="1" />
+</svg>

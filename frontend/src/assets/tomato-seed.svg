@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <radialGradient id="tomatoBag" cx="40%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#F87171" />
+      <stop offset="100%" stop-color="#DC2626" />
+    </radialGradient>
+  </defs>
+  <path d="M32 10 C18 10 14 26 16 48 C17 56 47 56 48 48 C50 26 46 10 32 10 Z" fill="url(#tomatoBag)" stroke="#991B1B" stroke-width="2" />
+  <ellipse cx="32" cy="14" rx="14" ry="4" fill="#FECACA" stroke="#991B1B" stroke-width="1.5" />
+  <circle cx="32" cy="34" r="9" fill="#EF4444" stroke="#7F1D1D" stroke-width="1.5" />
+  <path d="M29 26 L32 24 L35 26" stroke="#15803D" stroke-width="2" fill="none" />
+</svg>
